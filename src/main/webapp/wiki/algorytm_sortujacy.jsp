@@ -180,7 +180,6 @@
                 <li><b><a style="text-decoration: none" href="./zlozonosc_pamieciowa">Złożoność pamięciowa</a></b> - wyraża ilość pamięci wymaganej do przeprowadzenia sortowania przez algorytm.</li>
                 <li><b><a style="text-decoration: none" href="./rekurencja">Rekurencja</a></b> - niektóre algorytmy sortujące występują w formie rekursywnej, a niektóre nie.</li>
                 <li><b><a style="text-decoration: none" href="./stabilnosc">Stabilność</a></b> - mówi o tym czy algorytm zachowa oryginalną kolejność elementów o tej samej wartości, czy nie.</li>
-                <li><b><a style="text-decoration: none" href="./porownywanie">Porównywanie</a></b> - mówi o tym czy algorytm wykorzystuje operacje porównywania do swojego działania.</li>
                 <li><b><a style="text-decoration: none" href="#">Online</a></b> - czy algorytm potrafi działać bez znajomości rozmiaru listy oraz czy lista może być powiększana o nowe elementy podczas działania algorytmu.</li>
             </ul>
 
