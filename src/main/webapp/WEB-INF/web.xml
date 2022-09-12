@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>logowanie</servlet-name>
+        <jsp-file>/logowanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logowanie</servlet-name>
+        <url-pattern>/logowanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rejestracja</servlet-name>
+        <jsp-file>/rejestracja.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rejestracja</servlet-name>
+        <url-pattern>/rejestracja</url-pattern>
+    </servlet-mapping>
+
+
+    <!--WIKI SECTION-->
+
+    <servlet>
+        <servlet-name>wiki-sortowanie</servlet-name>
+        <jsp-file>/wiki/sortowanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-sortowanie</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-algorytmy_sortujace</servlet-name>
+        <jsp-file>/wiki/algorytm_sortujacy.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-algorytmy_sortujace</servlet-name>
+        <url-pattern>/bazawiedzy/algorytm_sortujacy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-notacja_duzego_o</servlet-name>
+        <jsp-file>/wiki/notacja_duzego_o.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-notacja_duzego_o</servlet-name>
+        <url-pattern>/bazawiedzy/notacja_duzego_o</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-zlozonosc_obliczeniowa</servlet-name>
+        <jsp-file>/wiki/zlozonosc_obliczeniowa.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-zlozonosc_obliczeniowa</servlet-name>
+        <url-pattern>/bazawiedzy/zlozonosc_obliczeniowa</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-zlozonosc_pamieciowa</servlet-name>
+        <jsp-file>/wiki/zlozonosc_pamieciowa.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-zlozonosc_pamieciowa</servlet-name>
+        <url-pattern>/bazawiedzy/zlozonosc_pamieciowa</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-porownywanie</servlet-name>
+        <jsp-file>/wiki/porownywanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-porownywanie</servlet-name>
+        <url-pattern>/bazawiedzy/porownywanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-zamiana</servlet-name>
+        <jsp-file>/wiki/zamiana.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-zamiana</servlet-name>
+        <url-pattern>/bazawiedzy/zamiana</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-stabilnosc</servlet-name>
+        <jsp-file>/wiki/stabilnosc.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-stabilnosc</servlet-name>
+        <url-pattern>/bazawiedzy/stabilnosc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-rekurencja</servlet-name>
+        <jsp-file>/wiki/rekurencja.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-rekurencja</servlet-name>
+        <url-pattern>/bazawiedzy/rekurencja</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-bubble_sort</servlet-name>
+        <jsp-file>/wiki/sortowanie_babelkowe.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-bubble_sort</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie_babelkowe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-insertion_sort</servlet-name>
+        <jsp-file>/wiki/sortowanie_przez_wstawianie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-insertion_sort</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie_przez_wstawianie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-selection_sort</servlet-name>
+        <jsp-file>/wiki/sortowanie_przez_wybor.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-selection_sort</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie_przez_wybor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-merge_sort</servlet-name>
+        <jsp-file>/wiki/sortowanie_przez_scalanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-merge_sort</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie_przez_scalanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki-quick_sort</servlet-name>
+        <jsp-file>/wiki/sortowanie_szybkie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wiki-quick_sort</servlet-name>
+        <url-pattern>/bazawiedzy/sortowanie_szybkie</url-pattern>
+    </servlet-mapping>
+
+
+    <!--BASE SECTION-->
+
+    <servlet>
+        <servlet-name>testy</servlet-name>
+        <jsp-file>/testy.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testy</servlet-name>
+        <url-pattern>/testy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bazawiedzy</servlet-name>
+        <jsp-file>/bazawiedzy.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bazawiedzy</servlet-name>
+        <url-pattern>/bazawiedzy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>o_stronie</servlet-name>
+        <jsp-file>/ostronie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>o_stronie</servlet-name>
+        <url-pattern>/o_stronie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>kontakt</servlet-name>
+        <jsp-file>/kontakt.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>kontakt</servlet-name>
+        <url-pattern>/kontakt</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>autor</servlet-name>
+        <jsp-file>/autor.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>autor</servlet-name>
+        <url-pattern>/autor</url-pattern>
+    </servlet-mapping>
+
+
+    <!--VIS SECTION-->
+
+    <servlet>
+        <servlet-name>vis-bubble_sort</servlet-name>
+        <jsp-file>/visualization/sortowanie_babelkowe.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vis-bubble_sort</servlet-name>
+        <url-pattern>/sortowanie_babelkowe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vis-insertion_sort</servlet-name>
+        <jsp-file>/visualization/sortowanie_przez_wstawianie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vis-insertion_sort</servlet-name>
+        <url-pattern>/sortowanie_przez_wstawianie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vis-selection_sort</servlet-name>
+        <jsp-file>/visualization/sortowanie_przez_wybor.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vis-selection_sort</servlet-name>
+        <url-pattern>/sortowanie_przez_wybor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vis-merge_sort</servlet-name>
+        <jsp-file>/visualization/sortowanie_przez_scalanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vis-merge_sort</servlet-name>
+        <url-pattern>/sortowanie_przez_scalanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vis-quick_sort</servlet-name>
+        <jsp-file>/visualization/sortowanie_szybkie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vis-quick_sort</servlet-name>
+        <url-pattern>/sortowanie_szybkie</url-pattern>
+    </servlet-mapping>
+
+    <!--TEST SECTION-->
+
+    <servlet>
+        <servlet-name>test-podstawy_sortowania</servlet-name>
+        <jsp-file>/testy/podstawy_sortowania.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-podstawy_sortowania</servlet-name>
+        <url-pattern>/testy/podstawy_sortowania</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-podstawy_sortowania_odpowiedzi</servlet-name>
+        <jsp-file>/testy/podstawy_sortowania_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-podstawy_sortowania_odpowiedzi</servlet-name>
+        <url-pattern>/testy/podstawy_sortowania_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-algorytmy_sortujace</servlet-name>
+        <jsp-file>/testy/algorytmy_sortujace.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-algorytmy_sortujace</servlet-name>
+        <url-pattern>/testy/algorytmy_sortujace</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-algorytmy_sortujace_odpowiedzi</servlet-name>
+        <jsp-file>/testy/algorytmy_sortujace_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-algorytmy_sortujace_odpowiedzi</servlet-name>
+        <url-pattern>/testy/algorytmy_sortujace_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-bubble_sort</servlet-name>
+        <jsp-file>/testy/sortowanie_babelkowe.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-bubble_sort</servlet-name>
+        <url-pattern>/testy/sortowanie_babelkowe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-bubble_sort_odpowiedzi</servlet-name>
+        <jsp-file>/testy/sortowanie_babelkowe_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-bubble_sort_odpowiedzi</servlet-name>
+        <url-pattern>/testy/sortowanie_babelkowe_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-insertion_sort</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_wstawianie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-insertion_sort</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_wstawianie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-insertion_sort_odpowiedzi</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_wstawianie_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-insertion_sort_odpowiedzi</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_wstawianie_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-selection_sort</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_wybor.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-selection_sort</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_wybor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-selection_sort_odpowiedzi</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_wybor_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-selection_sort_odpowiedzi</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_wybor_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-merge_sort</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_scalanie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-merge_sort</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_scalanie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-merge_sort_odpowiedzi</servlet-name>
+        <jsp-file>/testy/sortowanie_przez_scalanie_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-merge_sort_odpowiedzi</servlet-name>
+        <url-pattern>/testy/sortowanie_przez_scalanie_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-quick_sort</servlet-name>
+        <jsp-file>/testy/sortowanie_szybkie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-quick_sort</servlet-name>
+        <url-pattern>/testy/sortowanie_szybkie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test-quick_sort_odpowiedzi</servlet-name>
+        <jsp-file>/testy/sortowanie_szybkie_odpowiedzi.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test-quick_sort_odpowiedzi</servlet-name>
+        <url-pattern>/testy/sortowanie_szybkie_odpowiedzi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>testpage</servlet-name>
+        <jsp-file>/testpage.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testpage</servlet-name>
+        <url-pattern>/testpage</url-pattern>
+    </servlet-mapping>
+</web-app>

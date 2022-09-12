@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="primesort:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>primesort</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="primesort-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="primesort:war exploded" />
+    </root>
+  </artifact>
+</component>

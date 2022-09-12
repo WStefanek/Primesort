@@ -1,0 +1,154 @@
+header{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+main{
+    font-family: 'Lato', sans-serif;
+}
+
+#title{
+
+}
+
+#svgdiv{
+    font-size: 18px;
+}
+
+#speedslider{
+    direction: rtl;
+}
+
+#progressbar{
+    width: 80%;
+}
+
+#textlog{
+    width: 95%;
+}
+
+#logdiv{
+    border-radius: 0 5px 0 0;
+}
+
+.bg-c-blue{
+    background-color: #0B4F6C;
+}
+
+.bg-c-lightblue{
+    background-color: #ecf5ff;
+}
+
+.bg-c-cyan{
+    background-color: #01baef;
+}
+
+.bg-c-green{
+    background-color: #20BF55;
+}
+
+.bg-c-white{
+    background-color: #FBFBFF;
+}
+
+.bg-c-silver{
+    background-color: #303030;
+}
+
+.c-grey{
+    color: #767676;
+}
+
+.divider{
+    color: #14a0db;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+
+#footerbrand{
+    display: block;
+    padding: .5rem 1rem;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.r1 {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.r2 {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.r3 {
+    font-size: calc(100% + 0.25vw + 0.25vh);
+}
+
+.border-custom{
+    border-color: #767676;
+}
+
+.form-signin{
+    max-width: 330px;
+}
+
+#legend{
+    font-size: 0.8rem;
+}
+
+.legendbox{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+.answerbox{
+    background-color: #FBFBFF;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-color: rgb(236, 245, 255);
+    border-radius: 0 5px 5px 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.answerbox:hover{
+    border-color: rgb(84, 153, 255);
+    cursor: pointer;
+}
+
+.answerletter{
+    background-color: rgb(84, 153, 255);
+    border-radius: 0 5px 5px 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.odpselected{
+    background-color: rgb(84, 153, 255);
+    border-color: rgb(84, 153, 255);
+    color: #FFFFFF;
+}
+
+.odpcorrect{
+    background-color: rgb(35, 176, 110);
+    border-color: rgb(35, 176, 110);
+    color: #FFFFFF;
+}
+
+.odpwrong{
+    background-color: rgb(220, 53, 69);
+    border-color: rgb(220, 53, 69);
+    color: #FFFFFF;
+}

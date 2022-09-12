@@ -1,0 +1,13 @@
+.btn-sidebar:focus, .btn-sidebar:hover {
+    background-color: #f1f1f5;
+}
+
+.btn-sidebar .bi {
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+
+.btn-toggle-nav a{
+    text-decoration: none;
+}
+
